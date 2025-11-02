@@ -1,0 +1,1 @@
+function go-stain { Set-Location "$env:USERPROFILE\Documents\stain-treater" }
