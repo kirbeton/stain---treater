@@ -52,14 +52,14 @@ export default function Home() {
         </div>
         <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
   <img
-    src="/image/image.1.png"
+    src="/image/image-1.png"
     alt="תמונת מוצר לפני ואחרי"
     className="object-cover w-full h-full"
   />
 </div>
 
 
-        
+
       </section>
 
       {/* יתרונות */}
