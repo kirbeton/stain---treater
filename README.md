@@ -6,56 +6,85 @@
 
 ---
 
+## 🧠 על הפרויקט
+
+- מבנה רכיבים מודולרי עם **TypeScript**
+- חלק ייעודי לשאלות ותשובות (**Chat Interface**)
+- מסלול נגיש למפתחים שרוצים להרחיב את הפרויקט
+
+הפרויקט מדגים שימוש ב:
+- ✔ **Next.js + React**
+- ✔ **TypeScript**
+- ✔ רכיבים מותאמים אישית
+- ✔ API בסיסי בתוך התיקייה `app/api`
+
+---
+
 ## 🚀 תכונות עיקריות
 
-- ממשק משתמש מודרני ורספונסיבי  
-- רכיב צ׳אט אינטראקטיבי  
-- סליידר Before / After להמחשה ויזואלית  
-- שימוש ב-API Routes של Next.js  
-- קוד כתוב ב-TypeScript עם מבנה ברור וקריא  
+### 🗂 חלוקה לקומפוננטות
+הפיצ׳רים מחולקים לקבצים ברורים וממוינים לפי תפקיד:
+
+- `components/BeforeAfterSlider.tsx` — סליידר אינטראקטיבי
+- `components/ChatBot.tsx` — ממשק הצ׳אט
+- `components/props.tsx` — ממשקים ומודלים (interfaces / props)
+
+### 🚀 נתיב API מובנה
+ב־Next.js נוצלה מערכת ה־API המובנית:
+
+- `app/api/bot/route.ts` — מסלול API המטפל בבקשות הצ׳אט
 
 ---
 
-## 🧠 טכנולוגיות
+## 📦 התקנה והרצה מקומית
 
-- **Next.js** – Framework מבוסס React
-- **React** – בניית ממשק משתמש
-- **TypeScript** – טיפוסים ויציבות קוד
-- **API Routes** – תקשורת בין Frontend ל-Backend
-- **CSS Modules / Styling מודרני**
+כדי להפעיל את הפרויקט אצלך:
 
----
+### התקנת התלויות
+```bash
+npm install
 
-## 📁 מבנה הפרויקט
+```
+
+# 📁 מבנה התיקיות
 
 stain-treater/
 │
 ├─ app/
-│ ├─ api/
-│ │ └─ bot/
-│ │ └─ route.ts # API עבור הצ׳אט
-│ └─ page.tsx # דף הבית
+│   ├─ api/
+│   │   └─ bot/
+│   │       └─ route.ts   # API עבור הצ׳אט
+│   └─ page.tsx          # דף הבית
 │
 ├─ components/
-│ ├─ BeforeAfterSlider.tsx
-│ ├─ ChatBot.tsx
-│ └─ props.tsx
+│   ├─ BeforeAfterSlider.tsx
+│   ├─ ChatBot.tsx
+│   └─ props.tsx
 │
 ├─ public/
-│ └─ image/
-│ └─ image-2.png
+│   └─ image/
+│       └─ image-2.png   # תמונת הדגמה
 │
 ├─ package.json
 └─ README.md
 
 
 
----
+טכנולוגיה	שימוש
+Next.js	Framework מתקדם מבוסס React
+React	בניית ממשק משתמש
+TypeScript	טיפוסי קוד חזקים ותחזוקה
+API Routes	יצירת נקודות API בתוך Next.js
+🎯 מה למדתי בפרויקט הזה
 
-## ▶️ הרצה מקומית
+✔ עבודה עם TypeScript ו־Next.js
 
-1. התקנת התלויות:
-```bash
-npm install
+✔ יצירת רכיבים אינטראקטיביים
 
-npm run dev
+✔ חלוקה נכונה לפי תפקידים
+
+✔ הבנת זרימת נתונים בין UI ל־API
+
+📌 לסיום
+
+הפרויקט הזה הוא דוגמה ליכולות שלי כמתכנת Frontend / FullStack, המשתמש ב־React, Next.js ו-TypeScript, עם הבנה טובה בארכיטקטורת פרויקטים נקייה, מודולרית ומתוחזקת.
