@@ -1,9 +1,15 @@
 import CheckoutButton from '../components/CheckoutButton';
 import PayPalSimpleButton from "@/components/PayPalSimpleButton";
+import BeforeAfterSlider from "@/components/BeforeAfterSlider";
+import props from "@/components/props";
+import ChatBot from "@/components/ChatBot";
+
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900">
+      {/* בוט שירות לקוחות */}
+      <ChatBot />
       {/* עליון */}
       <header className="sticky top-0 bg-white/80 backdrop-blur border-b border-slate-200 z-50">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
